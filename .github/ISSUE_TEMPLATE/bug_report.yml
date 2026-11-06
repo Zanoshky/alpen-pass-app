@@ -1,0 +1,106 @@
+name: Bug report
+description: A question or answer is wrong, or something in Alpen Pass does not work, looks wrong or crashes.
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. One problem per report, please.
+        Issues here are public. Do not write your name, address, case number or anything else private, and check a screenshot before you attach it.
+  - type: dropdown
+    id: where
+    attributes:
+      label: "Which screen?"
+      options:
+        - Welcome
+        - Lernen (Learn)
+        - study chapter
+        - Weg zur Staatsbürgerschaft (Path to citizenship)
+        - Wörter (Words)
+        - Üben (Practice)
+        - Probeprüfung (mock exam)
+        - result
+        - Einstellungen (Settings)
+        - Offizielle Quellen (Official sources)
+        - Über (About)
+        - Pro page
+        - A question or answer is wrong
+        - other
+    validations:
+      required: true
+  - type: input
+    id: question
+    attributes:
+      label: Question id
+      description: "For a wrong question: its id if you know it, like wien.012. If not, leave this empty and paste the German question below."
+      placeholder: wien.012
+  - type: textarea
+    id: content
+    attributes:
+      label: The question and its source
+      description: "For a wrong question: your federal state, the German question as the app shows it, and the source line under it (booklet and page). Then what is wrong, and where the booklet or the law says otherwise."
+      placeholder: |
+        State: Wien
+        Question: ...
+        Source: Unterlage zum Staatsbürgerschaftstest, page ...
+        What is wrong: ...
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: "Settings, About Alpen Pass."
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: phone
+    attributes:
+      label: Phone model
+      description: Android settings, About phone.
+      placeholder: Pixel 8
+  - type: input
+    id: android
+    attributes:
+      label: Android version
+      description: Android settings, About phone, Android version.
+      placeholder: "15"
+  - type: input
+    id: language
+    attributes:
+      label: App language
+      description: Settings, App language.
+      placeholder: English
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What you did, one step per line. For a wrong question you can skip this.
+      placeholder: |
+        1. Open ...
+        2. Tap ...
+        3. See ...
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead
+    validations:
+      required: true
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshot or screen recording
+      description: Drag the file in here. Practice and the mock exam are kept out of screenshots, so copy the question text above instead.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you send
+      options:
+        - label: I searched the open issues and this is not there yet.
+          required: true
+        - label: My report and screenshots show nothing private.
+          required: true
