@@ -25,7 +25,7 @@ This repo is the public home for Alpen Pass users: the user guide, reports of wr
 4. Set your test date in Settings, so repetition is paced to it.
 5. With Pro, sit a mock exam: 18 questions, 6 per area, scored by § 3 and § 5 StbP-V.
 
-Free: every study chapter, the guide to the procedure, the word list and 30 questions. Pro, 19.99 EUR once: every question, the mock exam, planned repetition and the mistakes list.
+Free: every study chapter, the guide to the procedure, the word cards and 30 questions. Pro, 19.99 EUR once: every question, the mock exam, planned repetition and the mistakes list.
 
 ## The guide
 
