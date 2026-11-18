@@ -7,7 +7,7 @@
 <p align="center">Practice for the Austrian citizenship test on Android: over 1000 questions for all 9 federal states, each with its official source, a mock exam scored like the real test, in 10 languages. Offline, no account, no ads.</p>
 
 <p align="center">
-  <a href="https://play.google.com/store/apps/details?id=com.zanoshky.alpenpass"><b>Google Play</b></a> ·
+  <a href="https://play.google.com/store/apps/details?id=com.zanoshky.alpenpass&referrer=utm_source%3Dgithub-readme%26utm_medium%3Dreadme%26utm_campaign%3Dalpen-pass-2026-11"><b>Google Play</b></a> ·
   <a href="https://alpenpass.zanoski.com"><b>alpenpass.zanoski.com</b></a> ·
   <a href="https://zanoshky.github.io/alpen-pass-app/"><b>User guide</b></a> ·
   <a href="https://github.com/Zanoshky/alpen-pass-app/issues/new/choose"><b>Report a mistake</b></a>
